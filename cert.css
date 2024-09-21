@@ -1,0 +1,133 @@
+
+nav {
+    position: fixed; /* Fixes the navbar at the top */
+    top: 0; /* Aligns it to the top of the page */
+    width: 100%; /* Ensures the navbar spans the full width of the screen */
+    background-color: #333; /* Dark background for the nav */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    z-index: 1000; /* Keeps the navbar on top of other elements */
+}
+
+.nav-brand a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links a:hover {
+    background-color: #555; /* Lighter shade on hover */
+    border-radius: 5px;
+}
+
+body {
+    padding-top: 60px; /* Adds padding to ensure content doesn't hide behind the navbar */
+}
+
+h1{
+    margin-left: 100px;
+    color:whitesmoke;
+    font-size: 2.5rem;
+    margin-top: 50px;
+
+}
+h3{
+    margin-left: 100px;
+    color:whitesmoke;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+     
+}
+p{
+    margin-left: 100px;
+    color:whitesmoke;
+    justify-content: space-between;
+    
+     
+}
+body {
+    /*background-image: url('images/True____.jpeg');
+    background-size: cover; /* Ensures the image covers the entire background */
+   /* background-position: center; /* Centers the image */
+   /* background-repeat: no-repeat; /* Prevents the image from repeating */
+   background-color: black;
+  
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.certificate-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.certificate-gallery figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px; /* Adjust width as needed */
+}
+
+.certificate-gallery img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.certificate-gallery img:hover {
+    transform: scale(1.05);
+}
+
+.certificate-gallery figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fffefe;
+    text-align: center;
+}
+
+
+
+/* Use Roboto for body text */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Use Poppins for headings */
+h1, h2, p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
